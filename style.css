@@ -1,11 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
 body{
 background-color:whitesmoke;
+height: 100vh;
+width: 100vw;
 }
 
 .secondaryDisplayContainer{
     display:inline-block;
-    width:100px;
-    height:100px;
+    width:100%;
+    height:10%;
     border:solid 1px black;
 }
 .secondaryDisplay{
@@ -13,8 +21,8 @@ background-color:whitesmoke;
 }
 .primaryDisplayContainer{
     display:inline-block;
-    width:100px;
-    height:100px;
+    width:50%;
+    height:70%;
     border:solid 1px black;
 }
 .primaryButtonContainer{
@@ -24,17 +32,33 @@ background-color:whitesmoke;
     border:solid 1px black;
 }
 .keypadContainer{
-
+    display: inline-block;
+    height: 40%;
+    width: 20%;
+    border: 2px solid black;
 }
 .gasButtonsContainer{
     display:inline-block;
-    width:100px;
-    height:100px;
+    width:20%;
+    height:40%;
     border:solid 1px black;
 }
 .pumpButtonsContainer{
     display:inline-block;
-    width:100px;
-    height:100px;
+    width:8%;
+    height:30%;
     border:solid 1px black;
+}
+
+.gas-pump-container {
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+}
+
+.credit-card-button {
+    display: inline-block;
+    height: 20%;
+    width: 20%;
+    border: 2px solid black;
 }
