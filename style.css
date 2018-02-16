@@ -60,17 +60,40 @@ body{
     vertical-align: bottom;
     font-size: 2vmin;
 }
+
+.pumpButtonsContainer{
+    display: inline-block;
+    width: 30%;
+    height: 40%;
+    
+}
+#pumpGasButton, #liftReplaceButton{
+    height: 40%;
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+}
 .gasButtonsContainer{
     display:inline-block;
     width:100%;
     height:60%;
     border:solid 1px black;
 }
+
+#regular87, #super89, #premium91{
+    width: 30%;
+    height: 40%;
+    display: inline-block;
+    border: solid 1px black
+}
+
+
 .gasContainer{
     display:inline-block;
     width:30%;
     height:62%;
     border:solid 1px black;
+    text-align: center;
 }
 
 
