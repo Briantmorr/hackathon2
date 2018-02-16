@@ -45,10 +45,12 @@ function keypadCredit(){
 
 function creditOrDebit(){
     if (paymentMethod === 'credit'){
-        $('.primaryDisplayContainer').text('Please enter zip code');
+        $('.primaryDisplay2 > h1').text('Please enter zip code');
+        $('.primaryDisplay2 > .primaryButtonText > h2').text('Use keypad to enter zip code');
         $('.keypadContainer').on('click','.row button',keypadCredit);
     } else if (paymentMethod === 'debit'){
-        $('.primaryDisplayContainer').text('Please enter pin');
+        $('.primaryDisplay2 > h1').text('Please enter pin');
+        $('.primaryDisplay2 > .primaryButtonText > h2').text('Use keypad to enter pin');
         $('.keypadContainer').on('click','.row button',keypadDebit);
     }
 }
