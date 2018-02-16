@@ -33,7 +33,7 @@ function initializeApp() {
         if(handleReady) {
             selection = unleaded;
             displayStage++;
-            $('.gasButtonsContainer').addClass('noTouch');
+            $('.pumpButtonsContainer').addClass('noTouch');
             changeDisplay();
             console.log("Test");
         }
@@ -42,7 +42,7 @@ function initializeApp() {
         if(handleReady) {
             selection = plus;
             displayStage++;
-            $('.gasButtonsContainer').addClass('noTouch');
+            $('.pumpButtonsContainer').addClass('noTouch');
             changeDisplay();
         }
     });
@@ -50,7 +50,7 @@ function initializeApp() {
         if(handleReady) {
             selection = premium;
             displayStage++;
-            $('.gasButtonsContainer').addClass('noTouch');
+            $('.pumpButtonsContainer').addClass('noTouch');
             changeDisplay();
         }
     });
