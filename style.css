@@ -39,14 +39,14 @@ width: 100vw;
 }
 .gasButtonsContainer{
     display:inline-block;
-    width:20%;
-    height:40%;
+    width:100%;
+    height:60%;
     border:solid 1px black;
 }
 .pumpButtonsContainer{
     display:inline-block;
-    width:8%;
-    height:30%;
+    width:100%;
+    height:40%;
     border:solid 1px black;
 }
 
@@ -61,4 +61,11 @@ width: 100vw;
     height: 20%;
     width: 20%;
     border: 2px solid black;
+}
+
+.gasPumpContainer{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+
 }
