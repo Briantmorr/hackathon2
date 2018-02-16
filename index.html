@@ -10,20 +10,46 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="main2.js"></script>
+    <script src="main3.js"></script>
+    <script src="main4.js"></script>
     <script src="main.js"></script>
+
 </head>
 <body>
     <div class="secondaryDisplayContainer">
         <div class="secondaryDisplay"> 
-        <div class="sales"></div>
-        <div class="gallons"></div>
+       <div class="sales> Total Sale: $<span id="totalPrice">0</span> </div>
+        <div class ="gallons> Gallons: <span id="totalGallons">0</span></div>
         </div>
+
     </div>
     <div class="keypadContainer">
             <div class="keypad">
-    
+     <div class="keypadDisplay"></div>
+        <div class="row">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+        </div>
+        <div class="row">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+        </div>
+        <div class="row">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+        </div>
+        <div class="row right">
+            <button class="clearButton">Clear</button>
+            <button>0</button>
+            <button class="enterButton">Enter</button>
             </div>
         </div>
+  </div>
     <div class="primaryDisplayContainer">
             <button></button>
             <button></button>
@@ -32,6 +58,7 @@
         <div class="primaryButtonContainer">
            
         </div>
+
         <div class="primaryDisplay1">
             <h1>main text1</h1>
             <div class="primaryButtonText">
@@ -44,54 +71,51 @@
                 <h2>this text describes the buttons on the left side if any</h2>
             </div>
         </div>
-        <div class="primaryDisplay3">
-            <h1>main text3</h1>
+        <div class="primaryDisplay3" style="display:none">
+            <h1>Lift the handle and make a gas selection</h1>
+
             <div class="primaryButtonText">
-                <h2>this text describes the buttons on the left side if any</h2>
+                <h2>Supreme is the best!!</h2>
             </div>
         </div>
         <div class="primaryDisplay4">
-            <h1>main text4</h1>
+
+            <h1>Pumping</h1>
             <div class="primaryButtonText">
                 <h2>this text describes the buttons on the left side if any</h2>
             </div>
+
         </div>
         <div class="primaryDisplay5">
             <h1>main text5</h1>
             <div class="primaryButtonText">
                 <h2>this text describes the buttons on the left side if any</h2>
-            </div>
-        </div>
-
+        </div> 
     </div>
+
    
     <div class="gasContainer">
-        <div class="pumpButtonsContainer">
-            <div id="pumpGasButton">
-                
-                <button></button>
-            </div>
-                
-            <div id="liftReplaceButton">
-                <button></button>
-            </div>
-            
-                    in here we want the lift/replace gas handle button and the pump gas button
-        </div>
-        
         <div class="gasButtonsContainer">
-            <div id="regular87">
-                <div class='pricePerGallon'>2.97</div>
-                <button class='gasTierButton'>87</button> 
+        <button id="handleButton">Handle</button>
+        <button id="pumpGasButton">Pump Gas</button>
+    </div>
+    <div class="pumpButtonsContainer">
+      <div class ="gasSelection">
+            <div class="gasPrice">2.99</div>
+            <div class="gasType" id="unleaded">Unleaded 87
             </div>
-            <div id="super89">
-                <div class='pricePerGallon'>3.97</div>
-                <button class='gasTierButton' ></button>
+        </div>
+        <div class ="gasSelection">
+            <div class="gasPrice">3.29</div>
+            <div class="gasType" id="plus">Plus 89
             </div>
-            <div id="premium91">
-                <div class='pricePerGallon'>4.97</div>
-                <button class='gasTierButton' ></button>
+        </div>
+        <div class ="gasSelection">
+            <div class="gasPrice">3.59</div>
+            <div class="gasType" id="supreme">Supreme 93
             </div>
+        </div>
+    
         </div>
        
         
@@ -99,7 +123,9 @@
         
         
     </div>
+
 </div>
+
 
 </body>
 </html>
