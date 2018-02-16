@@ -229,20 +229,20 @@ body{
     background-color: red;
 }
 
-.primaryDisplay4{
-    display: inline-block;
-    width: 80%;
-    height: 80%;
-    border: 1px solid black;
-    border-radius: 10px;
-    vertical-align: top;
-    margin: 10% 1%;
-    text-align: center;
-}
+/*.primaryDisplay4{*/
+    /*display: inline-block;*/
+    /*width: 80%;*/
+    /*height: 80%;*/
+    /*border: 1px solid black;*/
+    /*border-radius: 10px;*/
+    /*vertical-align: top;*/
+    /*margin: 10% 1%;*/
+    /*text-align: center;*/
+/*}*/
 
-.primaryDisplay4 h1{
-  padding: 40% 0;
-}
+/*.primaryDisplay4 h1{*/
+  /*padding: 40% 0;*/
+/*}*/
 
 .secondaryDisplayContainer{
     display:block;

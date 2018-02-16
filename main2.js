@@ -9,7 +9,7 @@ function keypadDebit(){
             $('.keypadDisplay').text('');
             keyCodeDebit='';
             displayStage++;
-            changeDisplay();
+            changeStage();
         }
     } else {
         keyCodeDebit += $(this).text();
@@ -26,11 +26,10 @@ function keypadCredit(){
         $('.keypadDisplay').text($('.keypadDisplay').text().substring(0,$('.keypadDisplay').text().length-1));
         keyCodeCredit = keyCodeCredit.substring(0,keyCodeCredit.length-1);
     } else if (lastKey === 'Enter'){
-        if (keyCodeCredit.length >= 4){
+        if (keyCodeCredit.length === 5){
             $('.keypadDisplay').text('');
             keyCodeCredit='';
             displayStage++;
-            console.log('about to call change Display', displayStage);
             changeStage();
         }
     } else {

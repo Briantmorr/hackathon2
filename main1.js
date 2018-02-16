@@ -48,7 +48,8 @@ function debit () {
     console.log('debit');
     paymentMethod = "debit";
     displayStage++;
+    creditOrDebit();
     changeStage();
-    creditOrDebit;
+
 
 }
