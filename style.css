@@ -2,25 +2,18 @@ body{
 background-color:whitesmoke;
 }
 
-.secondaryDisplayContainer{
-    display:inline-block;
-    width:100px;
-    height:100px;
-    border:solid 1px black;
-}
-.secondaryDisplay{
 
-}
+
 .primaryDisplayContainer{
     display:inline-block;
-    width:100px;
-    height:100px;
+    width:600px;
+    height:600px;
     border:solid 1px black;
 }
 .primaryButtonContainer{
     display:inline-block;
     width:100px;
-    height:100px;
+    height:100%;
     border:solid 1px black;
 }
 .keypadContainer{
@@ -28,13 +21,56 @@ background-color:whitesmoke;
 }
 .gasButtonsContainer{
     display:inline-block;
-    width:100px;
-    height:100px;
+    width:150px;
+    height:300px;
     border:solid 1px black;
+    border-radius: 10px;
+    padding: 15px 8px ;
+    box-sizing: border-box;
 }
+
+.gasButtonsContainer button{
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+}
+
 .pumpButtonsContainer{
     display:inline-block;
     width:100px;
     height:100px;
     border:solid 1px black;
+}
+
+.primaryDisplay4{
+    display: inline-block;
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    vertical-align: top;
+    margin: 10% 1%;
+    text-align: center;
+}
+
+.primaryDisplay4 h1{
+  padding: 40% 0;
+}
+
+.secondaryDisplayContainer{
+    display:block;
+    width:350px;
+    height:100px;
+    border:solid 1px black;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.secondaryDisplayContainer span{
+    margin-left: 15px;
 }
