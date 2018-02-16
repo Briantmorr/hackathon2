@@ -1,3 +1,6 @@
+html{
+    font-family: Calibri;
+}
 body{
 background-color:whitesmoke;
 }
@@ -43,6 +46,38 @@ background-color:whitesmoke;
     border:solid 1px black;
 }
 
+
+.row > button {
+    width: 70px;
+    height: 55px;
+    border-radius: 10%;
+    background-color: rgb(189, 189, 189);
+    font-size: 4vmin;
+}
+
+.row button:focus {
+    outline:0;
+}
+
+.keypadDisplay {
+    width: 216px;
+    height: 56px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 8vmin;
+    overflow: hidden;
+    line-height: 56px;
+}
+
+.row > button.clearButton {
+    background-color: rgb(64, 167, 64);
+}
+
+.row > button.enterButton {
+    background-color: red;
+}
+
 .primaryDisplay4{
     display: inline-block;
     width: 80%;
@@ -74,3 +109,4 @@ background-color:whitesmoke;
 .secondaryDisplayContainer span{
     margin-left: 15px;
 }
+
