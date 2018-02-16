@@ -100,3 +100,10 @@ body{
     width: 80%;
     border: 2px solid black;
 }
+
+.gallons, .sales {
+    margin: 1vh auto 1.5vh auto;
+    height: 40%;
+    width: 70%;
+    border: 2px solid black;
+}
