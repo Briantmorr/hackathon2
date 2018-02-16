@@ -1,42 +1,266 @@
+
+
 body{
-background-color:whitesmoke;
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0;
+    background-color: #212121;
+    height: 100vh;
+    width: 100vw;
+  font-family: Calibri;
+}
+
+
+.secondaryDisplayContainer{
+    margin-bottom: 10vh;
+    display:inline-block;
+    width:100%;
+    height:20%;
+}
+.secondaryDisplay{
+    background-color: #f2ff96;
+    height: 100%;
+    width: 20%;
+    margin: 1% auto;
+    border: 2px solid black;
+    font-size: 2vmin;
+    border-radius: 5vh;
+    text-align: center;
+}
+
+.primaryDisplayContainer{
+    background-color: #424242;
+    display:inline-block;
+
+    width:50%;
+    height:70%;
+    border:solid 1px black;
+    vertical-align: bottom;
+}
+.primaryButtonContainer{
+
+    background-color: #6c7fe8;
+    display: inline-block;
+    width: 81vh;
+    height: 62vh;
+    margin: 3vh;
+    border: 1px solid black;
+    position: absolute;
+    top: 32vh;
+    /* right: 25vh; */
+    left: 51vh;
+    
+}
+.primaryDisplayContainer > button {
+    height: 10vh;
+    width: 10vh;
+    background-color: #858585;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 2vh 5vh 2vh;
+
+
+}
+.keypadContainer{
+    background-color: #424242;
+    display: inline-block;
+    height: 60%;
+    width: 20%;
+    border: 2px solid black;
+    vertical-align: bottom;
+    font-size: 2vmin;
+}
+
+.pumpButtonsContainer{
+    display: inline-block;
+    width: 30%;
+    height: 40%;
+    align-content: center;
+    
+}
+#pumpGasButton, #liftReplaceButton{
+    height: 40%;
+    width: 80%;
+    margin: 9%;
+    display: inline-block;
+    vertical-align: middle;
+    border:solid 1px black;
+
+}
+
+.gasButtonsContainer{
+    position: relative;
+    display:inline-block;
+    align-content: center;
+    width:100%;
+    height:60%;
+    border:solid 1px black;
+    padding: 20% 0%;
+}
+
+.pricePerGallon{
+    font-size: 3vw;
+    margin-bottom: 50%;
+    border:solid 1px black;
+    border-radius:70%;
+}
+
+.gasTierButton{
+    background-color: #4CAF50;
+    height: 70%;
+    width: 50%;
+    vertical-align: top;
+}
+
+#regular87, #super89, #premium91{
+    width: 26%;
+    height: 90%;
+    display: inline-block;
+    bottom: 0;
+    margin: 0% 2%;
+
+}
+
+
+.gasContainer{
+    background-color: #424242;
+
+
+
+.pumpButtonsContainer{
+    display:inline-block;
+    width:150px;
+    height:300px;
+    border:solid 1px black;
+    border-radius: 10px;
+    padding: 15px 8px ;
+    box-sizing: border-box;
+}
+
+.gasButtonsContainer button{
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+}
+
+
+.gasScreen {
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gasSelection {
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    border: solid 1px black;
+}
+
+.gasType{
+
+    display:inline-block;
+    width:30%;
+    height:62%;
+    border:solid 1px black;
+
+    text-align: center;
+}
+
+
+.credit-card-button {
+    display: inline-block;
+    height: 20%;
+    width: 20%;
+    border: 2px solid black;
+}
+
+.keypad {
+    background-color: whitesmoke;
+    margin: 6vh auto;
+    height: 80%;
+    width: 80%;
+    border: 2px solid black;
+}
+
+.gallons, .sales {
+    background-color: whitesmoke;
+    margin: 1vh auto 1.5vh auto;
+    height: 40%;
+    width: 70%;
+    border: 2px solid black;
+}
+
+}
+
+.hidden{
+    display: none;
+    transition: all 2s;
+}
+.show{
+    display: inline-block;
+    transition: all 2s;
+}
+
+
+.noTouch {
+    pointer-events: none;
+}
+
+.row > button {
+    width: 70px;
+    height: 55px;
+    border-radius: 10%;
+    background-color: rgb(189, 189, 189);
+    font-size: 20px;
+}
+
+.row button:focus {
+    outline:0;
+}
+
+.keypadDisplay {
+    width: 216px;
+    height: 56px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 8vmin;
+    overflow: hidden;
+    line-height: 56px;
+}
+
+.row > button.clearButton {
+    background-color: rgb(64, 167, 64);
+}
+
+.row > button.enterButton {
+    background-color: red;
+}
+
+.primaryDisplay4{
+    display: inline-block;
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    vertical-align: top;
+    margin: 10% 1%;
+    text-align: center;
+}
+
+.primaryDisplay4 h1{
+  padding: 40% 0;
 }
 
 .secondaryDisplayContainer{
-    display:inline-block;
-    width:100px;
+    display:block;
+    width:350px;
     height:100px;
     border:solid 1px black;
-}
-.secondaryDisplay{
 
-}
-.primaryDisplayContainer{
-    display:inline-block;
-    width:100px;
-    height:100px;
-    border:solid 1px black;
-}
-.primaryButtonContainer{
-    display:inline-block;
-    width:100px;
-    height:100px;
-    border:solid 1px black;
-}
-.keypadContainer{
-
-}
-.gasButtonsContainer{
-    display:inline-block;
-    width:100px;
-    height:100px;
-    border:solid 1px black;
-}
-.pumpButtonsContainer{
-    display:inline-block;
-    width:100px;
-    height:100px;
-    border:solid 1px black;
 }
   
   .receipt{
@@ -64,3 +288,16 @@ background-color:whitesmoke;
       text-align: center;
       margin-top: 18%;
   }
+
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.secondaryDisplayContainer span{
+    margin-left: 15px;
+}
+
