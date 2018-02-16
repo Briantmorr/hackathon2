@@ -30,22 +30,22 @@ body{
 
 .primaryDisplayContainer{
     background-color: #424242;
-    display:inline-block;
-    width:50%;
-    height:70%;
-    border:solid 1px black;
+    display: inline-flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    border: solid 1px black;
     vertical-align: bottom;
 }
 .primaryButtonContainer{
     background-color: #6c7fe8;
-    display: inline-block;
-    width: 81vh;
-    height: 62vh;
+    width: 75vh;
+    height: 59vh;
     margin: 3vh;
     border: 1px solid black;
     position: absolute;
-    top: 32vh;
-    left: 51vh;
+    left: 28%;
+    text-align:center;
     
 }
 .primaryDisplayContainer > button {
@@ -178,11 +178,9 @@ body{
 }
 
 .gallons, .sales {
-    #background-color: whitesmoke;
     margin: 1vh auto 1.5vh auto;
     height: 40%;
     width: 70%;
-    #border: 2px solid black;
 }
 
 .hidden{
@@ -279,14 +277,6 @@ body{
     text-align: center;
     margin-top: 18%;
 }
-
-    /* border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: Arial;
-} */
 
 .secondaryDisplayContainer span{
     margin-left: 15px;
