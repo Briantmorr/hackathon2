@@ -50,18 +50,13 @@ body{
     height:60%;
     border:solid 1px black;
 }
-.pumpButtonsContainer{
+.gasContainer{
     display:inline-block;
-    width:100%;
-    height:40%;
+    width:30%;
+    height:62%;
     border:solid 1px black;
 }
 
-.gas-pump-container {
-    height: 100%;
-    width: 30%;
-    display: inline-block;
-}
 
 .credit-card-button {
     display: inline-block;
@@ -70,17 +65,9 @@ body{
     border: 2px solid black;
 }
 
-<<<<<<< HEAD
-.gasPumpContainer{
-    width: 30%;
-    height: 100%;
-    display: inline-block;
-
-=======
 .keypad {
     margin: 6vh auto;
     height: 80%;
     width: 80%;
     border: 2px solid black;
->>>>>>> 51d3ad9d0911611e3b22f54a3afe969a4b16c072
 }
