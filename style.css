@@ -38,3 +38,29 @@ background-color:whitesmoke;
     height:100px;
     border:solid 1px black;
 }
+  
+  .receipt{
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 5% auto;
+  }
+
+  .receiptTitle, .receiptThanks{
+      text-align: center;
+  }
+
+  .fuel-type, .rate, .total-cost{
+      margin-left: 10px;
+  }
+
+  .primaryButtonText{
+      position: absolute;
+      bottom: 5%;
+      left: 2%;
+  }
+
+  .screenContainer > h1{
+      text-align: center;
+      margin-top: 18%;
+  }
