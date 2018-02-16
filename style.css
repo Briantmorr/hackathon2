@@ -52,22 +52,17 @@ body{
 }
 .gasButtonsContainer{
     display:inline-block;
-    width:20%;
-    height:40%;
+    width:100%;
+    height:60%;
     border:solid 1px black;
 }
-.pumpButtonsContainer{
+.gasContainer{
     display:inline-block;
-    width:8%;
-    height:30%;
+    width:30%;
+    height:62%;
     border:solid 1px black;
 }
 
-.gas-pump-container {
-    height: 100%;
-    width: 30%;
-    display: inline-block;
-}
 
 .credit-card-button {
     display: inline-block;
