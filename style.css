@@ -70,26 +70,49 @@ body{
     display: inline-block;
     width: 30%;
     height: 40%;
+    align-content: center;
     
 }
 #pumpGasButton, #liftReplaceButton{
     height: 40%;
     width: 80%;
+    margin: 9%;
     display: inline-block;
     vertical-align: middle;
+    border:solid 1px black;
+
 }
 .gasButtonsContainer{
+    position: relative;
     display:inline-block;
+    align-content: center;
     width:100%;
     height:60%;
     border:solid 1px black;
+    padding: 20% 0%;
+}
+
+.pricePerGallon{
+    font-size: 3vw;
+    margin-bottom: 50%;
+    border:solid 1px black;
+    border-radius:70%;
+}
+
+.gasTierButton{
+    background-color: #4CAF50;
+    height: 70%;
+    width: 50%;
+    vertical-align: top;
 }
 
 #regular87, #super89, #premium91{
-    width: 30%;
-    height: 40%;
+    width: 26%;
+    height: 90%;
     display: inline-block;
-    border: solid 1px black
+    bottom: 0;
+    margin: 0% 2%;
+
 }
 
 
