@@ -1,4 +1,6 @@
-
+html{
+    font-size: 1vmin;
+}
 
 body{
     padding: 0;
@@ -10,6 +12,9 @@ body{
     font-family: Calibri;
 }
 
+button{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .secondaryDisplayContainer{
     margin-bottom: 10vh;
@@ -23,7 +28,7 @@ body{
     width: 50%;
     margin: 1% auto;
     border: 2px solid black;
-    font-size: 3.5vmin;
+    font-size: 2.5rem;
     border-radius: 5vh;
     text-align: center;
 }
@@ -48,6 +53,7 @@ body{
     text-align:center;
     
 }
+
 .primaryDisplayContainer > button {
     height: 10vh;
     width: 10vh;
@@ -55,6 +61,10 @@ body{
     display: flex;
     flex-direction: column;
     margin: 5vh 2vh 5vh 2vh;
+}
+
+.primaryDisplay1 p{
+    font-size: 
 }
 
 .keypadContainer{
@@ -188,7 +198,6 @@ body{
     transition: all 2s;
 }
 
-
 .noTouch {
     pointer-events: none;
 }
@@ -199,8 +208,8 @@ body{
 }
 
 .row > button {
-    width: 30%;
-    height: 91%;
+    width: 32%;
+    height: 81%;
     border-radius: 10%;
     background-color: rgb(189, 189, 189);
     font-size: 20px;
