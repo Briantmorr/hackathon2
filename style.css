@@ -1,0 +1,40 @@
+body{
+background-color:whitesmoke;
+}
+
+.secondaryDisplayContainer{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    border:solid 1px black;
+}
+.secondaryDisplay{
+
+}
+.primaryDisplayContainer{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    border:solid 1px black;
+}
+.primaryButtonContainer{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    border:solid 1px black;
+}
+.keypadContainer{
+
+}
+.gasButtonsContainer{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    border:solid 1px black;
+}
+.pumpButtonsContainer{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    border:solid 1px black;
+}
