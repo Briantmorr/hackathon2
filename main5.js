@@ -1,11 +1,6 @@
-$(document).ready(main5Buttons);
 
-function main5Buttons(){
-    $("#mainButton2").click(function(){
-        printReceipt(total.price, total.gallons);
-    });
-    $("#mainButton1").click(changeMD5Text);
-}
+
+
 
 function printReceipt(cost, gallons){
     var receipt = $("<div>").addClass('receipt');

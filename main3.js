@@ -1,4 +1,4 @@
-$(document).ready(initializeApp);
+
 
 var handleReady = false;
 var unleaded = {
@@ -27,31 +27,3 @@ function toggleHandle(){
     console.log('Right now handleReady = ' + handleReady);
 }
 
-function initializeApp() {
-    $('#handleButton').on('click', toggleHandle);
-    $('#unleaded').on('click', function(){
-        if(handleReady) {
-            selection = unleaded;
-            displayStage++;
-            $('.pumpButtonsContainer').addClass('noTouch');
-            changeDisplay();
-            console.log("Test");
-        }
-    });
-    $('#plus').on('click', function(){
-        if(handleReady) {
-            selection = plus;
-            displayStage++;
-            $('.pumpButtonsContainer').addClass('noTouch');
-            changeDisplay();
-        }
-    });
-    $('#supreme').on('click', function(){
-        if(handleReady) {
-            selection = premium;
-            displayStage++;
-            $('.pumpButtonsContainer').addClass('noTouch');
-            changeDisplay();
-        }
-    });
-}

@@ -1,23 +1,6 @@
-$(document).ready(initApp);
 
-var total = {
-    gallons: 0,
-    price: 0
-};
 
-var selection = {
-    type: null,
-    price: 2.99
-};
 
-var timerID = null;
-var displayStage = 4;
-
-function initApp() {
-    $('#pumpGasButton').mousedown(pumpGas);
-    $('#pumpGasButton').mouseup(pumpStop);
-    $('#handleButton').click(replaceHandle);
-}
 
 function pumpGas(){
 
@@ -36,9 +19,5 @@ function pumpStop(){
 
 function replaceHandle() {
     displayStage++;
-    changeDisplay();
-}
-
-function changeDisplay(){
-    $('.primaryDisplay4 h1').text('Receipt? Y/N');
+    changeStage();
 }
